@@ -1,5 +1,8 @@
 package oncall
 
+import controller.OncallController
+
 fun main() {
-    TODO("프로그램 구현")
+    val controller = OncallController()
+    controller.start()
 }
